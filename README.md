@@ -63,6 +63,6 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-6. В Postman открыть json-коллекцию из директории 'postman_collection' для отправки запроса по адресу http://127.0.0.1:8000/api/data/.В body передать ключ - 'file_path' и сам путь до csv-файла
+6. В Postman открыть json-коллекцию из директории 'postman_collection' для отправки запроса по адресу http://127.0.0.1:8000/api/data/. В body передать ключ - 'file_path' и сам путь до csv-файла
 
 7. Отправить запрос и получить рассчетные данные в Json-формате.
